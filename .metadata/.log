@@ -1446,7 +1446,11 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
+!SESSION 2017-11-09 17:47:55.310 -----------------------------------------------
+=======
 !SESSION 2017-11-14 07:59:17.032 -----------------------------------------------
+>>>>>>> eb7f4d0e9c0cdee6d06446b528c09bb3c7436fc5
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -1454,6 +1458,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-09 17:48:11.104
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-11-11 17:04:25.395 -----------------------------------------------
+=======
 !ENTRY org.eclipse.ui 4 4 2017-11-14 07:59:29.515
 !MESSAGE Unable to create part
 !SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2017-11-14 07:59:29.515
@@ -1617,6 +1630,7 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 !SESSION 2017-11-14 08:34:21.911 -----------------------------------------------
+>>>>>>> eb7f4d0e9c0cdee6d06446b528c09bb3c7436fc5
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -1624,6 +1638,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-11 17:05:07.313
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-11-13 20:10:54.922 -----------------------------------------------
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2017-11-14 08:34:37.685
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
@@ -1665,6 +1688,7 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 !SESSION 2017-11-16 14:39:40.202 -----------------------------------------------
+>>>>>>> eb7f4d0e9c0cdee6d06446b528c09bb3c7436fc5
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -1672,6 +1696,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-13 20:11:34.521
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-11-25 15:25:00.189 -----------------------------------------------
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2017-11-16 14:39:47.054
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
@@ -1679,6 +1712,7 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 !SESSION 2017-11-16 15:39:24.564 -----------------------------------------------
+>>>>>>> eb7f4d0e9c0cdee6d06446b528c09bb3c7436fc5
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -1686,6 +1720,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-25 15:25:55.399
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-11-26 17:30:42.127 -----------------------------------------------
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2017-11-16 15:39:31.604
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
@@ -1693,6 +1736,7 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 !SESSION 2017-11-21 08:02:41.764 -----------------------------------------------
+>>>>>>> eb7f4d0e9c0cdee6d06446b528c09bb3c7436fc5
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -1700,9 +1744,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-26 17:31:21.651
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2017-11-21 08:02:59.899
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+>>>>>>> eb7f4d0e9c0cdee6d06446b528c09bb3c7436fc5
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
