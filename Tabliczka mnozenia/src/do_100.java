@@ -7,10 +7,10 @@ public class do_100 {
 		for(i=1; i<=10; i++)
 		{
 			for(j=1; j<=10; j++)
-			System.out.print("	"+i*j);
+			System.out.printf("%d * %d = %3d  ",i,j, i*j);
 			System.out.println("");
-			System.out.println("");
-			System.out.println("");
+//			System.out.println("");
+//			System.out.println("");
 		}
 	}
 
