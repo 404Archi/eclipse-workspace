@@ -4,14 +4,15 @@ public class Kalkulator {
 	
 	public static void main(String[] args) 
 	{
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Podaj Liczbê a:	" );
 		int a = scanner.nextInt();
 		
 		System.out.print("Podaj Liczbê b:	" );
-		int b = scanner.nextInt();
-
+		int b =  scanner.nextInt();
+		
 		scanner.close();
 		
 		int sum =		 a + b;
