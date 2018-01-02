@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Losowanie_tablice 
 {
+	static Scanner scanner = new Scanner(System.in);
 	public static int skaner()
-	{
-		Scanner scanner = new Scanner(System.in);
+	{	
 		return scanner.nextInt();
 	}
 	static Random random = new Random();
