@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Funkcje 
 {
-	
+	static Scanner scanner = new Scanner(System.in);
 	public static int skaner()
 	{
-		Scanner scanner = new Scanner(System.in);
+		
 		return scanner.nextInt();
 	}
 	public static double mojePolicz()
