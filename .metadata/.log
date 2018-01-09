@@ -2057,8 +2057,12 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
 =======
 >>>>>>> 4859ed829d41fc4ace30ee1a38f52b065960d420
+<<<<<<< HEAD
+!SESSION 2017-12-07 18:03:20.747 -----------------------------------------------
+=======
 >>>>>>> 7fed4912c825c7516ca5bfa1727e0a01c6f38e90
 !SESSION 2017-12-14 14:18:34.564 -----------------------------------------------
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -2066,10 +2070,17 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-12-07 18:03:32.728
+!MESSAGE Unable to load resource file:/F:/GitHub/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/F:/GitHub/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/F:/GitHub/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 3; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+=======
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2017-12-14 14:18:41.268
 !MESSAGE Unable to load resource file:/C:/Users/user/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 !STACK 0
 org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/user/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/user/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 3; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
@@ -2095,7 +2106,11 @@ org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+<<<<<<< HEAD
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/F:/GitHub/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/F:/GitHub/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 3; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+=======
 Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/user/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/user/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 3; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
 	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
@@ -2120,7 +2135,11 @@ Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/user/eclipse-wo
 	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
 	... 23 more
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2017-12-07 18:03:32.744
+=======
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2017-12-14 14:18:41.268
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 !MESSAGE The persisted application model has no top-level window. Reinitializing with the default application model.
 !STACK 0
 java.lang.Exception
@@ -2145,7 +2164,11 @@ java.lang.Exception
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-12-07 18:03:52.525
+=======
 !ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-12-14 14:18:52.569
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 !MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10 path $.<<<<<<<. ; version: 2.0.6.v20170906-1226
 !STACK 0
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10 path $.<<<<<<<
@@ -2166,6 +2189,15 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4
 	at com.google.gson.Gson.fromJson(Gson.java:887)
 	... 8 more
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-07 18:04:03.614
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-12-07 19:21:54.931 -----------------------------------------------
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2017-12-14 14:18:52.741
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
@@ -2232,6 +2264,7 @@ org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 2; The content of el
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
 !SESSION 2017-12-19 08:01:25.515 -----------------------------------------------
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -2239,6 +2272,9 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-12-07 19:22:37.956
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2017-12-19 08:01:39.642
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
@@ -2247,6 +2283,7 @@ EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
 !ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-12-19 08:01:39.704
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 !MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10 path $.<<<<<<<. ; version: 2.0.6.v20170906-1226
 !STACK 0
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10 path $.<<<<<<<
@@ -2266,7 +2303,18 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4
 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:218)
 	at com.google.gson.Gson.fromJson(Gson.java:887)
 	... 8 more
+<<<<<<< HEAD
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-07 19:22:38.353
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-01-05 15:22:16.729 -----------------------------------------------
+=======
 !SESSION 2018-01-02 08:06:26.274 -----------------------------------------------
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
 java.vendor=Oracle Corporation
@@ -2274,6 +2322,9 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-01-05 15:23:05.953
+=======
 !ENTRY org.eclipse.egit.ui 2 0 2018-01-02 08:06:42.815
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
@@ -2282,6 +2333,7 @@ EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
 !ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-01-02 08:06:42.878
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
 !MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10 path $.<<<<<<<. ; version: 2.0.6.v20170906-1226
 !STACK 0
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4 column 10 path $.<<<<<<<
@@ -2301,6 +2353,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 4
 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:218)
 	at com.google.gson.Gson.fromJson(Gson.java:887)
 	... 8 more
+<<<<<<< HEAD
 !SESSION 2018-01-04 14:36:48.496 -----------------------------------------------
 eclipse.buildId=4.7.1.M20171009-0410
 java.version=1.8.0_152
@@ -2355,3 +2408,15 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
 	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+=======
+<<<<<<< HEAD
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-05 15:23:06.520
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Fieroch'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+>>>>>>> 60f29887c782df112fc077115582ce15a7456f2e
+>>>>>>> 020c745aff30c381c35872b946fc50c93875adf4
