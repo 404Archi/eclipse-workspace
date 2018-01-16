@@ -36,10 +36,11 @@ public class Tablica_T
 		return max;
 	}
 
-	public static void wypisz(int[] zlicz)
+	public static void wypisz(int[] zlicz,int n)
 	{
 		for(int i=0;i<n;i++)
 		{
+		
 			System.out.print(zlicz[i]+", ");
 		}
 	}
@@ -76,7 +77,7 @@ public class Tablica_T
 			
 			Z[T[i]]=Z[T[i]]+1;
 		}
-		wypisz(Z);
+		wypisz(Z,n);
 	
 	 
 	}
