@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+<<<<<<< HEAD
     <entry loc="C:\Program Files\Java\jre-9.0.1" stamp="1510241452954"/>
     <entry loc="C:\Program Files\Java\jre-9.0.4" stamp="1516354124907"/>
     <entry loc="C:\Program Files\Java\jre1.8.0_152" stamp="1510242041897"/>
+=======
+<entry loc="C:\Program Files\Java\jre-9.0.1" stamp="1510241452954"/>
+<entry loc="C:\Program Files\Java\jre1.8.0_152" stamp="1509438405055"/>
+>>>>>>> 33db25be22c24b7923c46e0afbeb3cb7ab32eab8
 </dirs>
