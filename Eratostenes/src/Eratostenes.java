@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Eratostenes 
 {
-	int a;
+	int n;
 	static Scanner s = new Scanner(System.in);
 	public static void main(String[] args) 
 	{
-		int a =s.nextInt();
+		int n =s.nextInt();
 		System.out.print("Wypisz liczby parzyste do:	");
-		boolean[] sito = new boolean[a];
+		boolean[] sito = new boolean[n];
 		erasito(sito);
 		for(int i=0;i<sito.length;i++)
 		{
@@ -16,7 +16,6 @@ public class Eratostenes
 		}
 
 	}
-
 	private static void erasito(boolean[] sito) 
 	{
 		for(int i = 0; i < sito.length;i++)
